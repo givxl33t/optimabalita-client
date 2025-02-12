@@ -13,7 +13,7 @@ const About = () => {
 
   return (
     <>
-      <div className="bg-white pt-5 xl:pt-20" id="about">
+      <div className="bg-white xl:mt-40" id="about">
         <div className="container py-lg-5 mx-auto">
           <div 
             className="flex flex-col md:flex-row justify-center items-center mt-3"
