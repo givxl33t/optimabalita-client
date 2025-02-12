@@ -2,6 +2,8 @@ import { FaFacebookF, FaTwitter, FaGoogle, FaInstagram } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="text-white mt-12 pl-16 pr-16 bg-teal-600">
       <div className="container p-4 mx-auto justify-center">
@@ -97,7 +99,7 @@ const Footer = () => {
           <div className="ml-0 md:ml-4">
             <h6 className="mb-4 font-bold text-lg">Optima Balita</h6>
             <p className="text-white font-normal text-base">
-              © 2024 Givaro. All rights reserved
+              ©{currentYear} Givaro (Preview). All rights reserved
             </p>
           </div>
         </div>
